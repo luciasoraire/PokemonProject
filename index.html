@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lucia Soraire" />
+    <meta name="keywords" content="pokemon, videojuego, serie, television" />
+    <meta name="description" content="pagina de pokemon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Proyecto Pokémon</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container">
+          <a class="navbar-brand text-white" href="index.html">Pokedex</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul
+                  class="dropdown-menu bg-danger"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="pages/bulbasaur.html"
+                      >Bulbasaur</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar un pokemon"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="my-4">
+      <section class="container">
+        <div
+          id="carouselPokemon"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/portadaPokebola2.jpg"
+                class="d-block w-100 carouselPrincipal"
+                alt="Portada de Pokebola"
+              />
+            </div>
+           
+            <div class="carousel-item">
+              <img
+                src="img/portadaPokemon.jpg"
+                class="d-block w-100 carouselPrincipal"
+                alt="Portada de Celular"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPokemon"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPokemon"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+      </section>
+      <section class="container">
+        <article class="row">
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/bulbasaur.png"
+                class="card-img-top"
+                alt="Bulbasaur"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°001</h5>
+                <h5 class="card-title">Bulbasaur</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdePlanta fs-6">Planta</span>
+                  <span class="badge badgeVioleta fs-6">Veneno</span>
+                </div>
+                <a href="pages/bulbasaur.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="img/ivysaur.png"
+                class="card-img-top"
+                alt="Ivysaur"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°002</h5>
+                <h5 class="card-title">Ivysaur</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdePlanta fs-6">Planta</span>
+                  <span class="badge badgeVioleta fs-6">Veneno</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/venusaur.png"
+                class="card-img-top"
+                alt="Venusaur"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°003</h5>
+                <h5 class="card-title">Venusaur</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdePlanta fs-6">Planta</span>
+                  <span class="badge badgeVioleta fs-6">Veneno</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/charmander.png"
+                class="card-img-top"
+                alt="Charmander"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°004</h5>
+                <h5 class="card-title">Charmander</h5>
+                <div class="mb-2">
+                  <span class="badge badgeNaranja fs-6">Fuego</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/charmeleon.png"
+                class="card-img-top"
+                alt="Charmeleon"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°005</h5>
+                <h5 class="card-title">Charmeleon</h5>
+                <div class="mb-2">
+                  <span class="badge badgeNaranja fs-6">Fuego</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/charizard.png"
+                class="card-img-top"
+                alt="Charizard"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°006</h5>
+                <h5 class="card-title">Charizard</h5>
+                <div class="mb-2">
+                  <span class="badge badgeNaranja fs-6">Fuego</span>
+                  <span class="badge badgeGris fs-6">Volador</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/squirtle.png"
+                class="card-img-top"
+                alt="Squirtle"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°007</h5>
+                <h5 class="card-title">Squirtle</h5>
+                <div class="mb-2">
+                  <span class="badge badgeAzul fs-6">Agua</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/wartortle.png"
+                class="card-img-top"
+                alt="Wartortle"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°008</h5>
+                <h5 class="card-title">Wartortle</h5>
+                <div class="mb-2">
+                  <span class="badge badgeAzul fs-6">Agua</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/caterpie.png"
+                class="card-img-top"
+                alt="Caterpie"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°010</h5>
+                <h5 class="card-title">Caterpie</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdeBicho fs-6">Bicho</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/butterfree.png"
+                class="card-img-top"
+                alt="Butterfree"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°012</h5>
+                <h5 class="card-title">Butterfree</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdeBicho fs-6">Bicho</span>
+                  <span class="badge badgeGris fs-6">Volador</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/weedle.png"
+                class="card-img-top"
+                alt="Weedle"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°013</h5>
+                <h5 class="card-title">Weedle</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdeBicho fs-6">Bicho</span>
+                  <span class="badge badgeVioleta fs-6">Veneno</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+          <aside class="col-sm-12 col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <img
+                src="/img/beedrill.png"
+                class="card-img-top"
+                alt="Beedrill"
+              />
+              <div class="card-body">
+                <h5 class="text-muted">N.°015</h5>
+                <h5 class="card-title">Beedrill</h5>
+                <div class="mb-2">
+                  <span class="badge badgeVerdeBicho fs-6">Bicho</span>
+                  <span class="badge badgeVioleta fs-6">Veneno</span>
+                </div>
+                <a href="index.html" class="btn btn-primary">Ver detalle</a>
+              </div>
+            </div>
+          </aside>
+
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section class="bg-dark py-5">
+        <article class="text-center">
+          <p class="text-white">
+            Los datos fueron tomados de la página oficial de  <a class="link"
+              href="https://www.pokemon.com/el/pokedex"
+              >Pokémon</a
+            >
+          <p class="text-white">&copy; Todos los derechos reservados</p>
+          <p class="text-white">Lucía de los Ángeles Soraire</p>
+        
+          </p>
+      </article>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7f10aba9e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
