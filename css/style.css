@@ -1,0 +1,44 @@
+.carouselPrincipal {
+  object-fit: cover;
+  height: 400px;
+}
+
+.badgeVioleta {
+  background-color: #b97fc9;
+  border-radius: 21px;
+}
+.badgeNaranja {
+  background-color: #fd7d24;
+  border-radius: 21px;
+}
+
+.badgeCeleste {
+  background-color: #59c6e7;
+  border-radius: 21px;
+}
+
+.badgeAzul {
+  background-color: #4592C4;
+  border-radius: 21px;
+}
+
+.badgeVerdeBicho {
+  background-color: #719738;
+
+  border-radius: 21px;
+}
+.badgeVerdePlanta {
+  background-color: #9BCC50;
+
+  border-radius: 21px;
+}
+
+.badgeRosa {
+  background-color: #f368ba;
+  border-radius: 21px;
+}
+
+.badgeGris {
+  background-color: #bdb9b8;
+  border-radius: 21px;
+}
