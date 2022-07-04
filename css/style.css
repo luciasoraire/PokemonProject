@@ -42,3 +42,25 @@
   background-color: #bdb9b8;
   border-radius: 21px;
 }
+.bgEvoluciones{
+  background-color: #e2e0e0;
+  border-radius: 21px;
+}
+
+.num{
+color: #595C5F;
+}
+
+.nav-item :hover{
+background-color: #DC3545;
+color: #ffffff  ;
+}
+
+.nav-item .active{
+background-color: #DC3545;
+color: #ffffff  ;
+}
+
+.link {
+color: #ffffff;
+}
