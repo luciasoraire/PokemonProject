@@ -21,7 +21,7 @@
 *Utiliza los siguientes comandos para descargar una copia del proyecto*
 1. Crea una carpeta
 1. Abre Git Bash
-1. Coloca:  `git clone https://github.com/LuciaSoraire/ProyectoMovieHome.git`
+1. Coloca:  `git clone https://github.com/luciasoraire/ProyectoPokemon`
 
 <br>
 
